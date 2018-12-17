@@ -13,7 +13,7 @@ connection = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "Darcy0518*",
-  database: "burgers_db"
+  database: "burgers"
 
 });
 

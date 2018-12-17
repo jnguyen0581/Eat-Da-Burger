@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/jnguyen0581/Eat-Da-Burger#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "handlebars": "^4.0.12",
+    "method-override": "^3.0.0",
     "mysql2": "^1.6.4"
   }
 }

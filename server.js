@@ -6,7 +6,7 @@ var PORT = process.env.PORT || 8080;
 
 var db = process.env.DATABASE_URL || 'localhost';
 
-app.use(express.static(process.cwd() + '/public'));
+app.use(express.static(process.cwd() + 'public'));
 app.use(bodyParser.urlencoded({
 	extended: false
 }));
